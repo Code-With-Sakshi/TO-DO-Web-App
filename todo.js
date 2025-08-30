@@ -106,7 +106,7 @@ function deleteTask(index) {
   loadTasks();
 }
 
-// 🎆 Fireworks animation
+//  Fireworks animation
 function launchFireworks() {
   const canvas = document.getElementById("fireworks");
   if (!canvas) return;
@@ -142,7 +142,6 @@ function launchFireworks() {
   animate();
 }
 
-// Auto-load on page open
 window.onload = function() {
   loadTasks();
   loadCompleted();
